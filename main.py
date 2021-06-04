@@ -3,7 +3,7 @@
 """
 
 def generate_tree_based_data_structure(data):
-    """Function that creates a tree-based data structure from a list o lists."""
+    """Function that creates a tree-based data structure from a list of lists."""
 
     list_of_dicts = [list_to_dict(d) for d in data]
 
@@ -12,7 +12,6 @@ def generate_tree_based_data_structure(data):
         general_dict = join_two_dicts(general_dict, dict_)
 
     return general_dict
-
 
 def join_two_dicts(general_dict, new_dict):
     """Recursive function that merges two dictionaries in a nested one."""
@@ -33,9 +32,8 @@ def join_two_dicts(general_dict, new_dict):
 
         return list(set(general_dict + new_dict))
 
-
 def list_to_dict(list_):
-    """Recursive function to generate a (nested) dictionary from a list."""
+    """Recursive function that generates a (nested) dictionary from a list."""
 
     if len(list_) == 0:
         dict_ = {}
