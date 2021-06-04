@@ -5,7 +5,7 @@ Algorithm in Python that generates a tree-based data structure (dictionary) from
 
 From data stored in a list of lists, generate a hierarchical tree-based data structure (a dictionary). The lists can have different number of elements. The "final" elements (leaves) will always be stored in a list (even if it is an empty list or a single element list).
 
-The algorith should, for example, obtain [2] from [1].
+The algorithm obtains, for example, [2] from [1].
 
 [1]
 ```python
