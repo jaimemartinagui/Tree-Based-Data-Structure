@@ -1,7 +1,7 @@
 # Tree-Based-Data-Structure
 Algorithm in Python that generates a tree-based data structure (dictionary) from a list of lists of data.
 
-![Tree image](/images/tree.png)
+![Tree image](/img/tree.png)
 
 From data stored in a list of lists, generate a hierarchical tree-based data structure (a dictionary). The lists can have different number of elements. The "final" elements (leaves) will always be stored in a list (even if it is an empty list or a single element list).
 
